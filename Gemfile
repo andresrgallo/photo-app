@@ -9,6 +9,9 @@ group :production do
   gem 'pg'
 end
 
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 gem 'stripe'
 gem 'dotenv-rails', groups: [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
